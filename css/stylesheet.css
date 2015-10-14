@@ -1,0 +1,70 @@
+body {background-color:#fff; padding: 0; margin: 0;}
+
+.header_title, .header_myname {text-align: center;}
+.header_title {font-size:2em; font-family: 'Bitter', serif;; padding-top:100px; color:#fff; text-shadow: 2px 1.5px #FFA500;}
+.header_myname{font-size:5em; font-family: 'Bitter', serif; color:#fff; letter-spacing:0.09em; text-shadow: 4px 2.5px #FFA500; padding-bottom:100px; font-weight:normal;} /*#daa520*/
+
+h1 { line-height: 1px; }
+
+.masthead {border-top: 10px solid #FFA500;
+  background-image: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/1899342_506591256118021_2047943233_o.jpg"); background-repeat: no-repeat; background-size: cover; height: 400px; background-position: center; }
+
+/*.page_border { border-left: 2px solid #ccc; border-right: 2px solid #ccc; width: 900px; margin: 0 auto; }*/
+
+.content_wrap {padding:0 20px; bottom:40px;
+padding-bottom:15px; /*border-bottom: 2px solid #ccc; border-left: 2px solid #ccc; border-right: 2px solid #ccc;*/ width: 900px; margin: 0 auto; }
+
+.text_wrap {padding-bottom:2em; padding-top:5px; width:100%;
+margin:0 auto;}
+
+.float {display:inline-block; vertical-align:top; margin-top:15px; padding:0 10px;}
+
+.bio_wrap_english {width:45%}
+.bio_wrap_japanese { width:45%; padding-left: 0;}
+
+.english_title { text-align:right; font-family: 'Bitter', serif; font-size:30px; font-weight:700; color:#525252;}
+
+.english_text {font-family: 'Playfair Display', serif, Helvetica, Arial; font-size:20px; color:black; text-align: justify; line-height: 1.4em;}
+
+.japanese_text {font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka;
+ font-size: 16px; color:black; letter-spacing:-0.04em;line-height:1.85em; text-align: justify;}
+
+.japanese_title { font-family: Helvetica; font-size:30px; font-weight:bold; color:#525252;}
+
+footer { text-align:center; bottom:0px; 
+font-family:Helvetica, Arial, "Times New Roman"; font-size:1.3em; font-weight: bold;
+}
+footer ul {bottom:0px;}
+footer li {list-style: none; display:inline-block; color:#ccc;}
+
+footer a {text-decoration:none; margin: 0 4px; color:#4b4b4b;
+  -o-transition:color .2s ease-out, background 2s ease-in;
+  -ms-transition:color .2s ease-out, background 2s ease-in;
+  -moz-transition:color .2s ease-out, background 2s ease-in;
+  -webkit-transition:color .2s ease-out, background 2s ease-in;
+  transition:color .2s ease-out, background 2s ease-in;
+}
+
+
+body { background-color: green; }
+
+.media_test { position: fixed;bottom: 150px; left: 0; right: 0; height: 15px; background-color: white; }
+
+@media only screen and (min-width: 1000px) {
+
+.media_test { background-color: red; }
+}
+
+@media only screen and (min-width: 1500px) {
+
+.media_test { background-color: yellow; }
+
+	body { background-color: blue; }
+  .bio_wrap_japanese {
+    padding-left: 0;
+  }
+  .float { display: block; }
+}
+
+
+footer a:hover {color:#daa520; text-decoration:none;}
